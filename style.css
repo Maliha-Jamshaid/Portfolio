@@ -2,10 +2,12 @@
   zoom: 0%;
 }
 
-body {
+.headerHeadline {
   background-image: url(header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
   background-position: center;
+  width: 375px;
+  height: 718px;
 }
 
 .head {
@@ -13,6 +15,7 @@ body {
   width: 375px;
   height: 48px;
   padding: 4px 24px 4px 12px;
+  box-sizing: border-box;
   align-items: flex-start;
   gap: 199px;
   flex-shrink: 0;
@@ -20,12 +23,12 @@ body {
 
 .mylogo {
   display: flex;
-  padding: 10px 12px;
+  padding: 10px 10px;
   align-items: center;
   color: var(--primary-b-400, #6070ff);
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
@@ -56,6 +59,7 @@ body {
   color: var(--neutrals-n-800, #172b4d);
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
+  font-style: normal;
   line-height: 52px;
 }
 
